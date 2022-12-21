@@ -1,5 +1,6 @@
 
 # sorting array
+=begin 
 def sort(array)
    for i in 0...array.size
     indext=i+1
@@ -17,7 +18,16 @@ def sort(array)
    puts array[i]
    end 
  end     
-
+=end
+def sort(array)
+array.each_with_index do |num, idx|
+      
+# Getting the values of the array    
+  puts "#{num}"
+    puts "index-----#{idx+1}"
+  
+end 
+end
 #minimum and maximum elements
 def minimum(array)
   mini=0
