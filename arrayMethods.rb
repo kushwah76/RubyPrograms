@@ -29,3 +29,5 @@ array=[10,2,10,1,45,2111]
 #puts array.max_by(2){|i| i}
 #puts array.sum(2)
 #puts array.take_while{|i| i<3}
+#puts array.count
+#puts array.count{|element| element<100}
