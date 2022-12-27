@@ -1,3 +1,4 @@
+=begin
 def Each_Iterator(array)
     puts "Each Iterator"
     (0..array.size). each do|i|
@@ -87,3 +88,8 @@ else
     puts "wrong choices"
 end
     
+=end
+
+arr=[10,20,30,40,50,0,-1,8,-2]
+arr.sort
+puts arr.find{|i| i>-1}
