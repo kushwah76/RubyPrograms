@@ -4,3 +4,10 @@ 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
 
 use_name=kushwah76
 password= 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
+
+
+git remote remove origin
+developer@developer:~/RUBY$ git remote -v
+developer@developer:~/RUBY$ git remote -v
+developer@developer:~/RUBY$ git remote add vikas git@github.com:viyadav11/githubmyproject2repo.git
+developer@developer:~/RUBY$ git remote -v
