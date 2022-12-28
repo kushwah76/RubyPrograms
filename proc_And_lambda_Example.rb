@@ -27,7 +27,7 @@ lambdaExample
 # *****************************************
 
 proc = Proc.new { puts "Hello world" }
-lam = lambda { puts "Hello World" }
+lam = lambda { puts "Hello World" }y
 
 puts proc.class # returns 'Proc'
 puts lam.class  # returns 'Proc'
