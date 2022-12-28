@@ -1,5 +1,5 @@
 time=Time.new
-
+puts time
 puts time.inspect
 puts  time.year
 puts time.month # => Month of the date (1 to 12)
