@@ -1,17 +1,17 @@
 module Calculator1
     def sum
-        puts "The sum of #{@first_value} and #{@second_value} is :- #{@first_value+@second_value}"
+        puts "The sum of  #{@first_value+@second_value}"
           end
           def sub
-           puts "The sub of #{@first_value} and #{@second_value} is :- #{@first_value-@second_value}"
+           puts "The sub of  #{@first_value-@second_value}"
           end
           def multiplication
-           puts "The multiplication  of #{@first_value} and #{@second_value} is :- #{@first_value*@second_value}"
+           puts "The multiplication  of  #{@first_value*@second_value}"
        
           end
           def division
             begin
-           puts "The division  of #{@first_value} and #{@second_value} is :- #{@first_value / @second_value.to_f}"
+           puts "The division  of  #{@first_value / @second_value.to_f}"
             rescue ZeroDivisionError => e
                 puts "sorry please try again "
             end
