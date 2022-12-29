@@ -23,10 +23,24 @@ box=Box.new
 box.setWidth=100
 box.setHeight=200
 p box.dispwidth
-p box.despHeight
-************************************************************
-class Box
-    #setter
+p box.despHeightExample of a setter with multiple parameters:- 
+
+class Demo
+  def set= name_and_age
+      @name, @age =  name_and_age
+  end
+  
+  def get
+     "Your name is #{@name} and age is #{@age}"
+  end
+end
+
+obj = Demo.new
+obj.set = "Vaibhav", 24
+
+puts obj.get
+
+
     attr_writer:width,:height
     #getter
     attr_reader:width,:height
@@ -50,3 +64,18 @@ puts box.width
 puts box.height
 
 =end
+#Example of a setter with multiple parameters:- 
+
+class SetMultipalParameters
+    def set=name_and_age
+        @name,@age=name_and_age
+    end
+    def get
+        puts "my name is #{@name} and age is #{@age}"
+    end
+
+end
+s=SetMultipalParameters.new
+s.set="ankit",12
+puts s.get
+
