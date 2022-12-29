@@ -11,3 +11,22 @@ developer@developer:~/RUBY$ git remote -v
 developer@developer:~/RUBY$ git remote -v
 developer@developer:~/RUBY$ git remote add vikas git@github.com:viyadav11/githubmyproject2repo.git
 developer@developer:~/RUBY$ git remote -v
+
+
+
+#**********************************************************
+
+developer@developer:~/Desktop/rubyPrograms$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+        text.rb
+Please commit your changes or stash them before you switch branches.
+Aborting
+developer@developer:~/Desktop/rubyPrograms$ git stash
+Saved working directory and index state WIP on dev: 5d81446 Ruby_Regex
+developer@developer:~/Desktop/rubyPrograms$ git checkout main
+Switched to branch 'main'
+developer@developer:~/Desktop/rubyPrograms$ git stash pop
+Auto-merging text.rb
+CONFLICT (content): Merge conflict in text.rb
+The stash entry is kept in case you need it again.
+developer@developer:~/Desktop/rubyPrograms$ 
