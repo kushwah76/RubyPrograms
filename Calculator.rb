@@ -11,7 +11,7 @@ module Calculator1
           end
           def division
             begin
-           puts "The division  of #{@first_value} and #{@second_value} is :- #{@first_value/@second_value}"
+           puts "The division  of #{@first_value} and #{@second_value} is :- #{@first_value / @second_value.to_f}"
             rescue ZeroDivisionError => e
                 puts "sorry please try again "
             end
