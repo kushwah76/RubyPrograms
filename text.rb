@@ -18,4 +18,8 @@ class Book
     book1=Book.new(10,20)
 
 
+<<<<<<< Updated upstream
   
+=======
+  
+>>>>>>> Stashed changes
