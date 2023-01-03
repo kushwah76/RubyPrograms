@@ -9,3 +9,4 @@ m.start_engine
 require './car.rb'
 n = Car.new('BMW', 'red')
 n.start_engine
+puts "ok "

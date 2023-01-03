@@ -67,15 +67,15 @@ puts box.height
 #Example of a setter with multiple parameters:- 
 
 class SetMultipalParameters
-    def set=name_and_age
+    def self.set=name_and_age
         @name,@age=name_and_age
     end
-    def get
+    def self.get
         puts "my name is #{@name} and age is #{@age}"
     end
 
 end
-s=SetMultipalParameters.new
-s.set="ankit",12
-puts s.get
+# s=SetMultipalParameters.new
+SetMultipalParameters.set="ankit",12
+puts SetMultipalParameters.get
 
