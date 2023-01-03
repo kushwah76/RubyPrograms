@@ -1,0 +1,102 @@
+here is the topics :-
+
+1) RVM commands and Postgres
+2) Git and GitHub
+3) Ruby Basics
+- Ruby Literals (string, integer, float, boolean, hash, array, symbol, nil )
+- Data type and variable declaration
+- Declaring constants
+- single line/ Multi Line comment
+- puts, putc, p, print
+- gets
+- Defining and calling functions in ruby
+- Converting Data Types
+
+4) Ruby String Methods
+- Explore and list out all predefined methods in ruby. 
+- Practice each using them in IRB
+
+5) Ruby Numeric methods
+- Explore and list out all predefined methods in ruby. 
+- Practice each using them in IRB
+
+6) Ruby Conditional Statements
+- If
+- If-else
+- If-elsif-else
+- Case-When
+
+Main topics to cover:- 
+Ruby Array Methods
+- Explore and list out all predefined methods in ruby.
+- Practice each using them in IRB
+
+Ruby Hash Methods
+- Explore and list out all predefined methods in ruby.
+- Practice each using them in IRB
+
+Ruby Loops and Iterators
+- loop
+- for loop
+- while loop
+- until loop
+** Break, Next, Continue statements
+
+- each Iterator
+- times iterator
+- map iterator
+- collect iterators etc...
+
+Ruby-Block, Ruby-Range, Ruby-Exceptions, Ruby Date-Time
+Ruby Proc and lambda
+
+Ruby Enumerable
+Ruby File Handling
+***********************************************************
+Please start:-
+-Introduction to classes and objects
+- Include vs extend  vs prepend
+***********************************************
+Topics :-
+Include vs extend  vs prepend
+load vs require
+Exceptions and error handling
+Ruby Regex (With Predifend methods Match, sub, gsub)
+
+Ankit Kushwaha, Wed 6:40 PM
+https://www.bootrails.com/blog/ruby-attr-accessor-attr-writer-attr-reader/
+
+Ankit Kushwaha, Thu 12:39 PM
+please cover up this topics :-
+Ruby Oops Concepts
+-Introduction to classes and objects
+-Initializer(attr reader, attr writer, attr accessor)
+-Modules(mixin)
+-Inheritance
+-Types of methods(instance method, class methods)
+-Method overriding
+-self
+-Method scopes (public, private)
+Before 2:15 PM today
+
+Ankit Kushwaha, 2:16 PM
+************************************************************
+Hi  @all, 
+please cover all these topics by today only:- 
+Include vs extend  vs prepend
+load vs require
+Exceptions and error handling
+Ruby Regex (With Predifend methods Match, sub, gsub)
+Ruby Oops Concepts
+-Introduction to classes and objects
+-Initializer(attr reader, attr writer, attr accessor)
+-Modules(mixin)
+-Inheritance
+-Types of methods(instance method, class methods)
+-Method overriding
+-self
+-Method scopes (public and private)
+
+HTML and CSS Refresher block 
+SQL Refresher, (also complete HTML & CSS if pending)
+**(Joins, PK, FK, etc.)
