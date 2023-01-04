@@ -14,4 +14,8 @@ class Car
       puts 'Engine Idle'
     end
   end
+  def ankit(a)
+    
+    puts a
+  end
 end
