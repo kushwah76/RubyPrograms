@@ -28,17 +28,15 @@ module Chocolate_capacity
             $chocolate=[]
             $chocolate.push(chocolate)
             if keys==value 
-                hash={}
+                hash.clear
                 hash[capacity]=chocolate
             $array.push(hash)
             end
-            puts "chocolate--#{chocolate}"
             elsif keys==value
             hash[capacity]=chocolate
             $array.push(hash)
         end
         $c+=1
-            # puts "value--#{$array}----#{$chocolate}"
         end
         Chocolate.Choose_opresion
 
@@ -55,7 +53,7 @@ class Chocolate
     when "1"
         Chocolate.Chocolate_capacity
     when "2"
-        # puts "Your level is:- #{$array}"
+         puts "Your level is:- #{$array}"
         puts "Your level is:- #{$array.count}"
         exit
     else

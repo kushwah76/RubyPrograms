@@ -24,6 +24,3 @@ end
 str ="ankit"
 p str.chars
 
-class ClassName
-    
-end
